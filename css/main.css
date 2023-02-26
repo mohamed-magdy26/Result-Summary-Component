@@ -45,7 +45,7 @@ img {
   align-items: center;
 }
 .component {
-  width: 90%;
+  width: 75%;
   max-width: 650px;
   border-radius: var(--radius);
   display: flex;
@@ -116,13 +116,17 @@ img {
   flex-direction: column;
   gap: 15px;
 }
-.results h2 {
-  font-size: 1.8rem;
+
+.results p:first-of-type {
+  font-size: 1.7rem;
 }
-.results p {
+
+.results p:last-of-type {
   color: var(--White);
   opacity: 0.8;
   font-size: 1rem;
+  max-width: 40ch;
+  align-self: center;
 }
 
 @media (max-width: 767px) {
@@ -148,7 +152,7 @@ img {
   }
 }
 
-.summary h3 {
+.summary h2 {
   font-weight: 800;
   font-size: 1.6rem;
   color: var(--Dark-gray-blue);
